@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <welcome-file-list>
+        <welcome-file>pro_city.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>Demo001Servlet</servlet-name>
+        <servlet-class>servlet.Demo001Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CityServlet</servlet-name>
+        <servlet-class>servlet.CityServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CityJsonServlet</servlet-name>
+        <servlet-class>servlet.CityJsonServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Demo001Servlet</servlet-name>
+        <url-pattern>/Demo001Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/SearchServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CityServlet</servlet-name>
+        <url-pattern>/CityServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CityJsonServlet</servlet-name>
+        <url-pattern>/CityJsonServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

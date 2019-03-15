@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JQuery/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JQuery" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="A:/JQuery/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="A:/JQuery/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="A:/JQuery/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="A:/JQuery/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="A:/JQuery/commons-lang-2.5.jar" />
+          <element id="file-copy" path="A:/JQuery/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="A:/JQuery/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="A:/JQuery/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="A:/JQuery/jstl.jar" />
+          <element id="file-copy" path="A:/JQuery/mysql-connector-java-5.1.7-bin.jar" />
+          <element id="file-copy" path="A:/JQuery/standard.jar" />
+          <element id="file-copy" path="A:/JQuery/xpp3_min-1.1.4c.jar" />
+          <element id="file-copy" path="A:/JQuery/xstream-1.4.4.jar" />
+          <element id="file-copy" path="A:/JQuery/mysql-connector-java-8.0.15.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
